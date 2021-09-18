@@ -1,0 +1,5 @@
+C:\Users\Swapnil\source\repos\AppraisalHistoryApiDemo\bin\Debug\AppraisalHistoryApiDemo.dll
+C:\Users\Swapnil\source\repos\AppraisalHistoryApiDemo\bin\Debug\AppraisalHistoryApiDemo.pdb
+C:\Users\Swapnil\source\repos\AppraisalHistoryApiDemo\obj\Debug\AppraisalHistoryApiDemo.csproj.CoreCompileInputs.cache
+C:\Users\Swapnil\source\repos\AppraisalHistoryApiDemo\obj\Debug\AppraisalHistoryApiDemo.dll
+C:\Users\Swapnil\source\repos\AppraisalHistoryApiDemo\obj\Debug\AppraisalHistoryApiDemo.pdb

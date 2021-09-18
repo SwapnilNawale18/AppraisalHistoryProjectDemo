@@ -1,0 +1,10 @@
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\bin\Debug\AppraisalHistoryDemo.exe.config
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\bin\Debug\AppraisalHistoryDemo.exe
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\bin\Debug\AppraisalHistoryDemo.pdb
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\obj\Debug\AppraisalHistoryDemo.csproj.CoreCompileInputs.cache
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\obj\Debug\AppraisalHistoryDemo.exe
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\obj\Debug\AppraisalHistoryDemo.pdb
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\bin\Debug\AppraisalHistoryApiDemo.dll
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\bin\Debug\AppraisalHistoryApiDemo.pdb
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\obj\Debug\AppraisalHistoryDemo.csproj.CopyComplete
+C:\Users\Swapnil\source\repos\AppraisalHistoryDemo\obj\Debug\AppraisalHistoryDemo.csproj.AssemblyReference.cache

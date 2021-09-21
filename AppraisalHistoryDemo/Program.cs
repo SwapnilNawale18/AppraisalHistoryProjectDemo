@@ -56,13 +56,19 @@ namespace AppraisalHistoryDemo
             Console.WriteLine();
             do
             {
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.ForegroundColor=ConsoleColor.Yellow;
                 Console.WriteLine("---------------T-Company Appraisal History---------------");
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.BackgroundColor = ConsoleColor.Gray;
                 Console.WriteLine("1. View/Add/Modify information of Employee");
                 Console.WriteLine("2. View varoius reports of Employee");
                 Console.WriteLine("3. View/Add/Modify information of Job Roles");
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("Enter your choice: ");
                 option = Convert.ToInt32(Console.ReadLine());
-                
+                Console.ForegroundColor = ConsoleColor.White;
 
                 if(option==1)
                 {
@@ -269,3 +275,4 @@ namespace AppraisalHistoryDemo
         }
     }
 }
+

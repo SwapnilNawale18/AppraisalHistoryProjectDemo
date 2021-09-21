@@ -1,12 +1,43 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AppraisalHistoryApiDemo;
+using System.Text.RegularExpressions;
 
 namespace AppraisalHistoryDemo
 {
+    class Validation
+    {
+        public static bool isValidContact(string inputMobileNumber)
+        {
+            if(inputMobileNumber.Length==10)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static bool isValidEmail(string inputEmail)
+        {
+            try
+            {
+                var validateMail = new System.Net.Mail.MailAddress(inputEmail);
+                if(validateMail.Address==inputEmail)
+                {
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+            return false;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -61,11 +92,40 @@ namespace AppraisalHistoryDemo
               
                             Console.Write("Enter Gender: ");
                             gender = Console.ReadLine();
-                            Console.Write("Enter Email: ");
-                            email = Console.ReadLine();
-                            Console.Write("Enter Contact: ");
-                            contactNo = Console.ReadLine();
-                            
+                            //Console.Write("Enter Email: ");
+                            //email = Console.ReadLine();
+                            while (true)
+                            {
+                                Console.Write("Enter Email: ");
+                                email = Console.ReadLine();
+                                check = Validation.isValidEmail(email);
+                                if (check == true)
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Enter correct email");
+                                    continue;
+                                }
+                            }
+                            //Console.Write("Enter Contact: ");
+                            //contactNo = Console.ReadLine();
+                            while (true)
+                            {
+                                Console.Write("Enter Contact: ");
+                                contactNo = Console.ReadLine();
+                                check = Validation.isValidContact(contactNo);
+                                if (check == true)
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Length of Phone number must be 10");
+                                    continue;
+                                }
+                            }
                             Console.Write("Enter Address: ");
                             address = Console.ReadLine();
                             
